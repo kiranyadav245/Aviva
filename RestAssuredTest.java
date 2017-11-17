@@ -11,7 +11,7 @@ import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
  
-public class RestTEstGet {
+public class RestAssuredTest {
 	
 	@Test
 	public void GetWeatherDetails()
