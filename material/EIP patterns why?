@@ -1,0 +1,20 @@
+Enterprise Integration Patterns (EIP) provide a comprehensive architecture for manipulating NIEM messages. It provides a way of thinking about and expressing integration between and across systems, languages, APIs, and databases. These tools can help NIEM developers to accept data from various sources, transform the data to and from NIEM-conformant formats, and perform operations across data.
+
+Enterprise Integration Patterns (EIP) is a book, written by Gregor Hohpe and Bobby Woolf, and first published in 2003. It defines 65 patterns for integration of applications and interfaces. These patterns are implemented by a large number of middleware systems and software.
+
+Enterprise Integration Patterns (EIP) provides a language that developers can use to conceive and implement complex asynchronous messaging systems. It enables developers to break down a complex problem into small, simple steps using well-defined building blocks. Each building block is an EIP, and provides functionality that interacts with a message, database, or endpoint in some fashion. The base patterns are:
+
+Messaging: enables communication between components via asynchronous messages, rather than round-trip APIs or shared databases.
+Message Channel: connects components to each other, and provides services such as guaranteed delivery, and publish-subscribe mechanisms.
+Message: the basic unit of information that is communicated between components.
+Pipes and Filters: perform operations on messages, such as deleting unwanted content.
+Message Router: determine where a message should go, and help get it there.
+Message Translator: change the format of message, or integrate data from multiple sources.
+Message Endpoint: pull data from or push data to applications or systems.
+The EIP website provides a summary of patterns. These patterns are implemented by a broad array of middleware systems and software. Implementations include:
+
+Apache Camel
+Implemented patterns
+Microsoft BizTalk Server
+Implemented patterns
+IBM WebSphere Application Server
